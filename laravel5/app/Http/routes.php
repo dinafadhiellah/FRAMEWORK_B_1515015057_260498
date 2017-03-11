@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/',function() {
+    return view('Welcome');
 });
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
+
+Route::resource('anggota','Anggotacontroller');
+Route::resource('anggota.hobi','Hobicontroller');

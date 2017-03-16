@@ -21,3 +21,6 @@ Route::get('/home', 'HomeController@index');
 
 Route::resource('anggota','Anggotacontroller');
 Route::resource('anggota.hobi','Hobicontroller');
+Route::get('pengguna','penggunacontroller@awal');
+Route::get('pengguna/tambah','penggunacontroller@tambah');
+Route::get('Dosen','Dosencontroller@awal');

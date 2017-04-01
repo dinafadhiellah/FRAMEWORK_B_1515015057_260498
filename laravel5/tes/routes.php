@@ -10,36 +10,33 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/', function () {
-    return view('welcome');
-});
-// Route::get('pengguna/tambah/route', function (){
-// 		$pengguna = new App\pengguna();
+Route::get('pengguna/tambah/route', function (){
+		$pengguna = new App\pengguna();
 
-//     	$pengguna->username = 'Ferry';
-//     	$pengguna->password = 'Ferry';
-//     	$pengguna->save();    	
-//     	return "data dengan username {$pengguna->username} telah disimpan";
-// });
+    	$pengguna->username = 'Ferry';
+    	$pengguna->password = 'Ferry';
+    	$pengguna->save();    	
+    	return "data dengan username {$pengguna->username} telah disimpan";
+});
 
 
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
-// Route::get('helloword', function () {
-//     return "hello";
+Route::get('helloword', function () {
+    return "hello";
+});
+
+// Route::get('pengguna/{pengguna?}', function ($pengguna="sarman") {
+//     return "hallo  $pengguna";
 // });
-
-// // Route::get('pengguna/{pengguna?}', function ($pengguna="sarman") {
-// //     return "hallo  $pengguna";
-// // });
-// Route::get('berita/{berita?}', function ($berita="laravel 5") {
-//     return "berita $berita belum dibaca";
-// });
+Route::get('berita/{berita?}', function ($berita="laravel 5") {
+    return "berita $berita belum dibaca";
+});
 
 
-// Route::get('/','PenggunaController@awal');
+Route::get('/','PenggunaController@awal');
 
 
 
@@ -87,7 +84,7 @@ Route::post('dosen/edit/{dosen}','DosenController@update');
 Route::get('dosen/hapus/{dosen}','DosenController@hapus');
 
 Route::get('dosen_matakuliah','Dosen_MatakuliahController@awal');
-// Route::get('/','Dosen_MatakuliahController@awal');
+Route::get('/','Dosen_MatakuliahController@awal');
 Route::get('dosen_matakuliah/tambah','Dosen_MatakuliahController@tambah');
 Route::get('dosen_matakuliah/lihat/{dosen_matakuliah}','Dosen_MatakuliahController@lihat');
 Route::post('dosen_matakuliah/simpan','Dosen_MatakuliahController@simpan');

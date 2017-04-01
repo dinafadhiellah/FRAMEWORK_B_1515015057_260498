@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Amrina Rasyada</div>
+                <div class="title">DINA FADHIELLAH</div>
             </div>
         </div>
     </body>

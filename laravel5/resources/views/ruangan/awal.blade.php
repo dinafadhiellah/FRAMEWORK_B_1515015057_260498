@@ -2,16 +2,15 @@
 @section('container')
 <div class="panel panel-default">
 	<div class="panel-heading">
-		<strong> Seluruh Ruangan </strong>
-		<a href="{{url('ruangan/tambah')}}" class="btn btn-xs btn-primary pull-right"><i class = "fa fa-plus"></i> Ruangan
-		 </a>
+		<strong> Seluruh Data Ruangan </strong>
+		<a href="{{url('ruangan/tambah')}}" class="btn btn-xs btn-primary pull-right"><i class = "fa fa-plus"></i> Ruangan </a>
 	<div class="clearfix"></div>
 	</div>
 	<table class="table">
 		<thead>
 			<tr>
 				<th> No. </th>
-				<th> title </th>
+				<th> Title </th>
 				<th> Aksi </th>
 			</tr>
 		</thead>

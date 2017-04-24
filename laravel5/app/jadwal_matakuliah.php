@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Jadwal_matakuliah extends Model
 {
-    protected $table = 'jadwalmatkul'; // digunakan untuk mendeklarasikan tabel jadwal_matakuliah
+    protected $table = 'jadwal_matakuliah'; // digunakan untuk mendeklarasikan tabel jadwal_matakuliah
 
     protected $guarded = ['id']; // mengabaikan atribut id pada saat melakikan insert/update
 

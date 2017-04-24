@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Matakuliah extends Model
 {
-    protected $table = 'matkul'; // digunakan untuk mendeklarasikan tabel matakuliah
+    protected $table = 'matakuliah'; // digunakan untuk mendeklarasikan tabel matakuliah
 
     //protected $fillable = ['title','keterangan'];
 

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Ruangan extends Model
 {
-    protected $table = 'ruangann'; // digunakan untuk mendeklarasikan tabel pengguna
+    protected $table = 'ruangan'; // digunakan untuk mendeklarasikan tabel pengguna
 
     //protected $fillable = ['title'];
 

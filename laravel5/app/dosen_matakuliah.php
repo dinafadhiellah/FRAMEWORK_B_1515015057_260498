@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Dosen_matakuliah extends Model
 {
-   protected $table = 'dosenmatkul'; // digunakan untuk mendeklarasikan tabel dosen_matakuliah
+   protected $table = 'dosen_matakuliah'; // digunakan untuk mendeklarasikan tabel dosen_matakuliah
 
   protected $guarded =['id'];//mengabaikan aribut id pada saat melakukan insert/delete oleh eloquent
 

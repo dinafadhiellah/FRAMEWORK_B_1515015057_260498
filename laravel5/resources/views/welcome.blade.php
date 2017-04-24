@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Dina Fadhiellah</div>
+                <div class="title">Dina FADHIELLAH</div>
             </div>
         </div>
     </body>
